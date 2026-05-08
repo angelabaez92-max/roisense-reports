@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Fajas Tributo — Revisión Mayo 1–7, 2026 · ROISense</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#E91E8C;--navy:#0f172a;--g400:#94a3b8;--teal:#0ea5e9;--green:#10b981;--gold:#f59e0b;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--navy);color:#fff;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:0;}
+.hero{position:relative;padding:60px 64px 48px;overflow:hidden;z-index:1;}
+.glow{position:absolute;border-radius:50%;pointer-events:none;}
+.g1{top:-120px;right:-80px;width:480px;height:480px;background:radial-gradient(circle,rgba(233,30,140,0.15) 0%,transparent 65%);}
+.g2{bottom:-60px;left:-60px;width:340px;height:340px;background:radial-gradient(circle,rgba(239,68,68,0.10) 0%,transparent 70%);}
+.hi{max-width:1100px;margin:0 auto;position:relative;z-index:1;}
+.br{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:24px;}
+.badge{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;padding:5px 13px;border-radius:100px;}
+.bp{background:rgba(233,30,140,0.12);border:1px solid rgba(233,30,140,0.35);color:#f472b6;}
+.bg{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);color:rgba(255,255,255,0.45);}
+.br2{background:rgba(239,68,68,0.12);border:1px solid rgba(239,68,68,0.35);color:#f87171;}
+h1.ht{font-family:'Playfair Display',serif;font-size:clamp(32px,4vw,54px);font-weight:900;line-height:1.08;letter-spacing:-0.02em;margin-bottom:12px;}
+h1.ht em{font-style:italic;color:var(--pink);}
+.hs{font-size:15px;color:rgba(255,255,255,0.5);line-height:1.65;max-width:560px;margin-bottom:36px;}
+.hkpis{display:flex;gap:36px;flex-wrap:wrap;padding:20px 0;border-top:1px solid rgba(255,255,255,0.08);}
+.hkv{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--pink);line-height:1;margin-bottom:4px;}
+.hkl{font-size:11px;color:var(--g400);text-transform:uppercase;letter-spacing:0.07em;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 64px 100px;position:relative;z-index:1;}
+.sl{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:var(--pink);margin-bottom:8px;}
+.st{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;line-height:1.15;color:#fff;margin-bottom:22px;}
+.div{height:1px;background:rgba(255,255,255,0.07);margin:44px 0;}
+.kgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px;}
+.kpi{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:20px 18px;position:relative;transition:border-color .2s;}
+.kt{position:absolute;top:0;left:14px;right:14px;height:3px;border-radius:0 0 3px 3px;}
+.kl{font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:var(--g400);margin-bottom:8px;}
+.kv{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;line-height:1;margin-bottom:5px;}
+.ks{font-size:12px;color:var(--g400);}
+.ki{position:absolute;top:16px;right:14px;font-size:18px;opacity:0.55;}
+.alert{background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.25);border-radius:14px;padding:18px 22px;margin-bottom:24px;}
+.alert-t{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#f87171;margin-bottom:8px;}
+.tw{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:14px;overflow:hidden;margin-bottom:28px;}
+table{width:100%;border-collapse:collapse;}
+thead tr{background:rgba(0,0,0,0.35);}
+thead th{padding:11px 12px;text-align:left;font-size:10px;font-weight:700;letter-spacing:0.10em;text-transform:uppercase;color:rgba(255,255,255,0.3);white-space:nowrap;}
+thead th.r{text-align:right;}
+.dcols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:28px;}
+.ag-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:24px;}
+.agc{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:18px;border-top:3px solid var(--pink);}
+.agn{font-size:11px;font-weight:700;color:#fff;margin-bottom:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.agm{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;}
+.agml{font-size:10px;color:var(--g400);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:2px;}
+.agmv{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;}
+.ins{background:rgba(245,158,11,0.07);border:1px solid rgba(245,158,11,0.22);border-radius:12px;padding:16px 20px;margin-bottom:24px;}
+.insl{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.14em;text-transform:uppercase;color:#fbbf24;margin-bottom:7px;}
+.footer{border-top:1px solid rgba(255,255,255,0.07);padding:22px 64px;display:flex;align-items:center;justify-content:space-between;}
+.fb{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;color:rgba(255,255,255,0.25);letter-spacing:0.10em;text-transform:uppercase;}
+.fb span{color:var(--pink);}
+.fd{font-size:11px;color:rgba(255,255,255,0.20);}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.hi>*{animation:fadeUp .5s ease both;}
+.hi>*:nth-child(1){animation-delay:.05s}.hi>*:nth-child(2){animation-delay:.12s}.hi>*:nth-child(3){animation-delay:.20s}.hi>*:nth-child(4){animation-delay:.30s}
+@media(max-width:900px){.hero,.wrap{padding-left:20px;padding-right:20px;}.kgrid,.dcols,.ag-grid{grid-template-columns:1fr 1fr;}.footer{flex-direction:column;gap:6px;padding:20px;}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="hi">
+    <div class="br">
+      <span class="badge bp">⚡ Revisión Semanal</span>
+      <span class="badge bg">Mayo 1–7, 2026 · 7 días</span>
+      <span class="badge br2">CPL ↑ vs abril — acción requerida</span>
+    </div>
+    <h1 class="ht">Fajas Tributo <em>Design LLC</em><br>Revisión Mayo 1–7</h1>
+    <p class="hs">El CPL subió de $1.26 (abril) a $1.67 esta semana. Hay un ad que hay que pausar hoy y oportunidades claras para redirigir el presupuesto.</p>
+    <div class="hkpis">
+      <div><div class="hkv">$569.43</div><div class="hkl">Inversión 7 días</div></div>
+      <div><div class="hkv">340</div><div class="hkl">Follows ganados</div></div>
+      <div><div class="hkv" style="color:#f87171;">$1.67</div><div class="hkl">CPL promedio</div></div>
+      <div><div class="hkv">$20.16</div><div class="hkl">CPM promedio</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- ── KPIs ── -->
+<div class="sl">Resumen del período</div>
+<div class="st" style="font-size:22px;">KPIs · Mayo 1–7 vs Abril</div>
+
+<div class="kgrid">
+  <div class="kpi"><div class="kt" style="background:var(--pink);"></div><div class="kl">Inversión</div><div class="kv" style="color:var(--pink);">$569.43</div><div class="ks">USD · 7 días</div><div class="ki">💰</div></div>
+  <div class="kpi"><div class="kt" style="background:#10b981;"></div><div class="kl">Follows</div><div class="kv" style="color:#10b981;">340</div><div class="ks">48.6/día promedio</div><div class="ki">👥</div></div>
+  <div class="kpi" style="border-color:rgba(239,68,68,0.3);"><div class="kt" style="background:#ef4444;"></div><div class="kl">CPL promedio</div><div class="kv" style="color:#f87171;">$1.67</div><div class="ks" style="color:#f87171;">↑ vs $1.26 de abril</div><div class="ki">🎯</div></div>
+  <div class="kpi"><div class="kt" style="background:var(--gold);"></div><div class="kl">CPM promedio</div><div class="kv">$20.16</div><div class="ks">28,245 impresiones</div><div class="ki">📺</div></div>
+</div>
+
+<!-- ── ALERT ── -->
+<div class="alert">
+  <div class="alert-t">⚠️ Alerta de performance</div>
+  <p style="font-size:13px;color:rgba(255,255,255,0.75);line-height:1.65;">El CPL subió un <strong style="color:#f87171;">32% vs abril</strong> ($1.26 → $1.67). El grupo principal 030226 (sin bid cap, $560 gastados) tiene CPL de <strong style="color:#f87171;">$1.74</strong> — por encima del benchmark. El grupo 260226 (bid cap $1.20) sigue siendo eficiente con CPL <strong style="color:#34d399;">$0.52</strong> pero solo recibió $9 de inversión esta semana. Acción inmediata: pausar kiana, redirigir presupuesto a los creativos que sí convierten.</p>
+</div>
+
+<!-- ── AD GROUPS ── -->
+<div class="sl">Por conjunto de anuncios</div>
+<div class="st" style="font-size:20px;margin-bottom:16px;">Performance por Ad Group</div>
+<div class="ag-grid">
+  <div class="agc" style="border-top-color:#0ea5e9;">
+    <div class="agn">ROI_Follows_$1.2_GA+NY+FL+TX_260226</div>
+    <div class="agm">
+      <div><div class="agml">Inversión</div><div class="agmv" style="color:#0ea5e9;">$9</div></div>
+      <div><div class="agml">Follows</div><div class="agmv">18</div></div>
+      <div><div class="agml">CPL</div><div class="agmv" style="color:#10b981;">$0.52</div></div>
+      <div><div class="agml">CPM</div><div class="agmv">$28.35</div></div>
+    </div>
+  </div>
+  <div class="agc" style="border-top-color:#E91E8C;">
+    <div class="agn">ROI_Follows_GA+NY+FL+TX_030226</div>
+    <div class="agm">
+      <div><div class="agml">Inversión</div><div class="agmv" style="color:#E91E8C;">$560</div></div>
+      <div><div class="agml">Follows</div><div class="agmv">322</div></div>
+      <div><div class="agml">CPL</div><div class="agmv" style="color:#f87171;">$1.74</div></div>
+      <div><div class="agml">CPM</div><div class="agmv">$20.06</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ── TABLA ADS ── -->
+<div class="sl">Performance por anuncio</div>
+<div class="st" style="font-size:20px;margin-bottom:16px;">Ads activos · Mayo 1–7 · Ordenados por follows</div>
+<div class="tw"><table>
+  <thead><tr>
+    <th style="width:36px;"></th>
+    <th>Anuncio</th>
+    <th class="r">Inversión</th>
+    <th class="r">Follows</th>
+    <th class="r">CPM</th>
+    <th>CPL</th>
+    <th>Decisión</th>
+  </tr></thead>
+  <tbody><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(233,30,140,0.2);border-radius:7px;font-size:11px;font-weight:700;color:#f472b6;">1</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_Dr2fajas_270326</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$216</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">119</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#fbbf24;">$21.13</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:100%;background:#f59e0b;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#f59e0b;white-space:nowrap;">$1.82</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(245,158,11,0.15);color:#fbbf24;">🟡 Revisar</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(233,30,140,0.2);border-radius:7px;font-size:11px;font-weight:700;color:#f472b6;">2</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_GA_NY_FL_TX_Real_compresivetech_17…</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$146</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">87</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#fbbf24;">$18.64</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:73%;background:#f59e0b;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#f59e0b;white-space:nowrap;">$1.68</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(245,158,11,0.15);color:#fbbf24;">🟡 Revisar</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(233,30,140,0.2);border-radius:7px;font-size:11px;font-weight:700;color:#f472b6;">3</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_sleep_300426</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$119</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">65</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#10b981;">$16.40</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:55%;background:#f59e0b;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#f59e0b;white-space:nowrap;">$1.83</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(245,158,11,0.15);color:#fbbf24;">🟡 Revisar</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">4</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_tellmewearing_080426</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$16</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">19</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#f87171;">$34.80</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:16%;background:#10b981;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#10b981;white-space:nowrap;">$0.86</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(16,185,129,0.15);color:#10b981;">🟢 Mantener</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">5</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_GA_NY_FL_TX_Realserena_130326</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$29</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">19</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#f87171;">$36.70</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:16%;background:#f59e0b;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#f59e0b;white-space:nowrap;">$1.53</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(245,158,11,0.15);color:#fbbf24;">🟡 Revisar</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">6</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_$1.2Follows_GA_NY_FL_TX_Model_260226_A2IA</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$6</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">14</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#f87171;">$42.95</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:12%;background:#10b981;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#10b981;white-space:nowrap;">$0.41</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(16,185,129,0.15);color:#10b981;">🟢 Mantener</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">7</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_torsofaja_280426</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$16</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">8</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#f87171;">$31.30</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:7%;background:#f59e0b;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#f59e0b;white-space:nowrap;">$1.99</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(245,158,11,0.15);color:#fbbf24;">🟡 Revisar</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">8</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_kianafromwholistic_080426</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$12</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">4</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#fbbf24;">$20.08</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:3%;background:#ef4444;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#ef4444;white-space:nowrap;">$3.09</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(239,68,68,0.18);color:#f87171;">🔴 PAUSAR</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">9</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_Sleepingfaja_080426</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$2</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">1</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#fbbf24;">$20.36</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:1%;background:#f59e0b;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#f59e0b;white-space:nowrap;">$1.69</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(245,158,11,0.15);color:#fbbf24;">🟡 Revisar</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">10</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_$1.2Follows_GA_NY_FL_TX_Real_drcomprestech…</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$1</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">1</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#10b981;">$16.60</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:1%;background:#10b981;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#10b981;white-space:nowrap;">$0.78</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(16,185,129,0.15);color:#10b981;">🟢 Mantener</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">11</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_$1.2Follows_sleep_300426</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$1</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">0</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#10b981;">$12.38</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:0%;background:#94a3b8;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#94a3b8;white-space:nowrap;">—</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(148,163,184,0.12);color:#94a3b8;">⚪ Sin datos</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">12</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_Follows_Drfasusi_board+faja_280426</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$3</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">0</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#f87171;">$31.15</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:0%;background:#94a3b8;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#94a3b8;white-space:nowrap;">—</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(148,163,184,0.12);color:#94a3b8;">⚪ Sin datos</span></td></tr><tr style="border-bottom:1px solid rgba(255,255,255,0.04);"><td style="padding:10px 8px 10px 14px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:rgba(255,255,255,0.05);border-radius:7px;font-size:11px;font-weight:700;color:rgba(255,255,255,0.4);">13</span></td><td style="padding:10px 12px;max-width:220px;"><span style="font-size:11px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;">ROI_$1.2Follows_Dr2fajas_270326</span></td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:700;color:#E91E8C;">$1</td><td style="padding:10px 12px;text-align:right;font-size:13px;font-weight:700;color:#fff;">0</td><td style="padding:10px 12px;text-align:right;font-size:12px;font-weight:600;color:#fbbf24;">$18.15</td><td style="padding:10px 12px;min-width:130px;"><div style="display:flex;align-items:center;gap:7px;"><div style="flex:1;height:5px;background:rgba(255,255,255,0.07);border-radius:3px;overflow:hidden;"><div style="height:5px;width:0%;background:#94a3b8;border-radius:3px;"></div></div><span style="font-size:12px;font-weight:700;color:#94a3b8;white-space:nowrap;">—</span></div></td><td style="padding:10px 12px;"><span style="display:inline-flex;align-items:center;padding:3px 9px;border-radius:100px;font-size:10px;font-weight:700;background:rgba(148,163,184,0.12);color:#94a3b8;">⚪ Sin datos</span></td></tr></tbody>
+</table></div>
+
+<div class="ins">
+  <div class="insl">💡 Insight clave</div>
+  <p style="font-size:13px;color:rgba(255,255,255,0.7);line-height:1.65;">
+    <strong style="color:#fff;">tellmewearing</strong> tiene CPL $0.86 con solo $16 invertidos — el mejor ratio de la semana y está siendo ignorado por el presupuesto. 
+    <strong style="color:#fff;">$1.2Follows_Model_260226</strong> tiene CPL $0.41 con bid cap — funciona perfectamente. 
+    El problema está concentrado en el grupo 030226 (sin cap) donde los ads ya están en fatiga creativa después de semanas activos.
+  </p>
+</div>
+
+<div class="div"></div>
+
+<!-- ── DECISIONES ── -->
+<div class="sl">Plan de acción inmediato</div>
+<div class="st" style="font-size:22px;">¿Qué pausar, qué monitorear, qué mantener?</div>
+<div class="dcols">
+  <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:20px;border-left:4px solid #ef4444;"><div style="font-size:11px;font-weight:700;color:#ef4444;text-transform:uppercase;letter-spacing:0.10em;font-family:monospace;margin-bottom:4px;">🔴 Pausar ahora</div><div style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:14px;">CPL ≥ $2.00 — gastan presupuesto sin resultados eficientes</div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_kianafromwholistic_080426</div><div style="font-size:11px;color:#ef4444;">CPL $3.09 · 4 follows · $12 invertidos</div></div></div><div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:20px;border-left:4px solid #f59e0b;"><div style="font-size:11px;font-weight:700;color:#f59e0b;text-transform:uppercase;letter-spacing:0.10em;font-family:monospace;margin-bottom:4px;">🟡 Monitorear esta semana</div><div style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:14px;">CPL entre $1.50–$2.00 — dar 3–5 días más antes de decidir</div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_Dr2fajas_270326</div><div style="font-size:11px;color:#f59e0b;">CPL $1.82 · 119 follows · $216 invertidos</div></div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_GA_NY_FL_TX_Real_compresivetech_170326</div><div style="font-size:11px;color:#f59e0b;">CPL $1.68 · 87 follows · $146 invertidos</div></div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_sleep_300426</div><div style="font-size:11px;color:#f59e0b;">CPL $1.83 · 65 follows · $119 invertidos</div></div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_GA_NY_FL_TX_Realserena_130326</div><div style="font-size:11px;color:#f59e0b;">CPL $1.53 · 19 follows · $29 invertidos</div></div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_torsofaja_280426</div><div style="font-size:11px;color:#f59e0b;">CPL $1.99 · 8 follows · $16 invertidos</div></div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_Sleepingfaja_080426</div><div style="font-size:11px;color:#f59e0b;">CPL $1.69 · 1 follows · $2 invertidos</div></div></div><div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:20px;border-left:4px solid #10b981;"><div style="font-size:11px;font-weight:700;color:#10b981;text-transform:uppercase;letter-spacing:0.10em;font-family:monospace;margin-bottom:4px;">🟢 Mantener activos</div><div style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:14px;">CPL < $1.50 — están funcionando, no tocar</div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_Follows_tellmewearing_080426</div><div style="font-size:11px;color:#10b981;">CPL $0.86 · 19 follows · $16 invertidos</div></div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_$1.2Follows_GA_NY_FL_TX_Model_260226_A2IA</div><div style="font-size:11px;color:#10b981;">CPL $0.41 · 14 follows · $6 invertidos</div></div><div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 14px;margin-bottom:8px;"><div style="font-size:11px;font-weight:700;color:#fff;margin-bottom:2px;">ROI_$1.2Follows_GA_NY_FL_TX_Real_drcomprestech_170</div><div style="font-size:11px;color:#10b981;">CPL $0.78 · 1 follows · $1 invertidos</div></div></div>
+</div>
+
+<!-- ── ACCIONES CONCRETAS ── -->
+<div class="sl">Pasos concretos</div>
+<div class="st" style="font-size:20px;margin-bottom:16px;">Qué hacer hoy en TikTok Ads Manager</div>
+<div style="display:grid;gap:12px;margin-bottom:40px;">
+  <div style="background:rgba(255,255,255,0.04);border-radius:12px;padding:16px 20px;display:flex;gap:14px;border-left:4px solid #ef4444;">
+    <div style="font-family:monospace;font-size:10px;font-weight:700;color:#f87171;flex-shrink:0;width:52px;padding-top:2px;text-transform:uppercase;letter-spacing:0.08em;">🔴 Hoy</div>
+    <div><div style="font-size:13px;font-weight:700;color:#fff;margin-bottom:4px;">Pausar ROI_Follows_kianafromwholistic_080426</div><div style="font-size:12px;color:var(--g400);line-height:1.5;">CPL $3.09 — el peor de la semana. $12 gastados en solo 4 follows. Redirigir ese presupuesto a tellmewearing o $1.2Follows_Model_260226 que tienen CPL &lt;$1.00.</div></div>
+  </div>
+  <div style="background:rgba(255,255,255,0.04);border-radius:12px;padding:16px 20px;display:flex;gap:14px;border-left:4px solid #f59e0b;">
+    <div style="font-family:monospace;font-size:10px;font-weight:700;color:#fbbf24;flex-shrink:0;width:52px;padding-top:2px;text-transform:uppercase;letter-spacing:0.08em;">🟡 Esta semana</div>
+    <div><div style="font-size:13px;font-weight:700;color:#fff;margin-bottom:4px;">Escalar ROI_Follows_tellmewearing + $1.2Follows_Model_260226</div><div style="font-size:12px;color:var(--g400);line-height:1.5;">Ambos tienen CPL por debajo de $1.00 con poco presupuesto. Subir el budget de estos dos y darles más espacio para encontrar audiencia.</div></div>
+  </div>
+  <div style="background:rgba(255,255,255,0.04);border-radius:12px;padding:16px 20px;display:flex;gap:14px;border-left:4px solid #f59e0b;">
+    <div style="font-family:monospace;font-size:10px;font-weight:700;color:#fbbf24;flex-shrink:0;width:52px;padding-top:2px;text-transform:uppercase;letter-spacing:0.08em;">🟡 Esta semana</div>
+    <div><div style="font-size:13px;font-weight:700;color:#fff;margin-bottom:4px;">Refrescar creativos de Dr2fajas y compresivetech</div><div style="font-size:12px;color:var(--g400);line-height:1.5;">CPL $1.68–$1.83 — fueron los mejores de abril pero ya muestran fatiga. Crear variantes nuevas del mismo ángulo (médico/autoridad) con un hook diferente.</div></div>
+  </div>
+  <div style="background:rgba(255,255,255,0.04);border-radius:12px;padding:16px 20px;display:flex;gap:14px;border-left:4px solid #10b981;">
+    <div style="font-family:monospace;font-size:10px;font-weight:700;color:#34d399;flex-shrink:0;width:52px;padding-top:2px;text-transform:uppercase;letter-spacing:0.08em;">🟢 Mantener</div>
+    <div><div style="font-size:13px;font-weight:700;color:#fff;margin-bottom:4px;">sleep_300426 y torsofaja_280426 — darles hasta el 14 de mayo</div><div style="font-size:12px;color:var(--g400);line-height:1.5;">Son ads nuevos (lanzados el 28–30 de abril). Con menos de 10 días de datos, el CPL puede mejorar. Revisar el 14 de mayo con más datos antes de decidir.</div></div>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <div class="fb">ROI<span>Sense</span> · Performance Marketing</div>
+  <div class="fd">Generado: 8 mayo 2026 · Datos API TikTok al 7 mayo · Próxima revisión: 14 mayo</div>
+</div>
+
+</body></html>
